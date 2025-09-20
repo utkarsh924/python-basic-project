@@ -2,14 +2,18 @@
 # email-> us0304619@gmail.com
 # password-> utkarsh19
 
+email= input('Entered email')
+password =input('1234')
 
-email=input("Enter the email")
-password=input("Enter the password")
-print(email,password)
-
-if email== 'us0304619@gmail.com' and password== 'utkarsh19':
-    print("welcome on your facebook account")
-
+if email=='us0304619@gmail.com' and password=='1234':
+ print('welcome on your insta account')
+elif email=='us0304619@gmail.com' and password !='1234':
+ # Tell the user
+ print('incorrect password')
+ password=input('entered the password again')
+ if password=='1234' :
+  print('Welcome,Finally!')
+ else:
+  print('Beta tumse naa ho paega')
 else:
-    print("not correct")
-
+ print('not correct')
