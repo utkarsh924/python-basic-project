@@ -3,7 +3,7 @@
 # password-> utkarsh19
 
 email= input('Entered email')
-password =input('1234')
+password =input('Entered password')
 
 if email=='us0304619@gmail.com' and password=='1234':
  print('welcome on your insta account')
@@ -17,3 +17,6 @@ elif email=='us0304619@gmail.com' and password !='1234':
   print('Beta tumse naa ho paega')
 else:
  print('not correct')
+
+
+
