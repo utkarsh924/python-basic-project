@@ -1,3 +1,8 @@
+# 1/1!+2/2!+3/3!+............
+
+
+
+
 n = int(input('enter n'))
 result = 0
 fact = 1
