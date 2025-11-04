@@ -1,6 +1,6 @@
 # Extract username from a given email
 # eg if the email is us0304619@gmail.com
-# then username should be utkarsh924
+# then username should be us0304619
 
 user= input('Enter the email:')
 
